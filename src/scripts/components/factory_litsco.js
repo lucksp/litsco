@@ -1331,6 +1331,16 @@ angular.module("app_litsco").factory("factory_litsco", [
       {
         id: "division_7",
         cat: 7,
+        vendorName: "BASF",
+        vendorLogo: "basf.png",
+        vendorUrl: "https://www.master-builders-solutions.basf.us/en-us",
+        subHeader:
+          "BASF offers advanced chemical solutions for construction. Our portfolio includes concrete admixtures, waterproofing solutions, concrete repair and protection solutions, and performance grouts.",
+        alt: "BASF Master Builders Solutions"
+      },
+      {
+        id: "division_7",
+        cat: 7,
         vendorName: "Roofblok",
         vendorLogo: "roofblok.gif",
         vendorUrl: "http://www.roofblok.com/",

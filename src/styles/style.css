@@ -465,6 +465,15 @@ map {
   margin: 8px 0;
 }
 
+.card-news .news-item ul {
+  list-style-type: square;
+  margin-left: 16px;
+}
+
+.card-news .news-item li {
+  list-style-type: square;
+}
+
 .news-item .waves-effect {
   width: 100%;
 }
