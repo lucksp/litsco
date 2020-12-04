@@ -36,7 +36,14 @@
                             <a href="/pdf/{{ productIdObj.dataSheetLink }}" target="_blank" class="btn-floating btn-large amber darken-3">
                                 <i class="material-icons small">insert_chart</i>
                             </a>
-                            <p>Data Sheet</p>
+                            <p> Data Sheet</p>
+                        </li>
+                        <li ng-if="productIdObj.id === 'omniwall_cl'" class="product-download-btns waves-effect waves-light">
+                            <!-- <a class="btn-floating btn-large amber darken-3" href="/pdf/{{ productIdObj.specPageLink2 }}" target="_blank"> -->
+                                <a class="btn-floating btn-large amber darken-3" href="/pdf/streamline_omniwall_cl_fusion.pdf" target="_blank"></a>
+                                <i class="material-icons small">attach_file</i>
+                            </a>
+                            <p>Fusion CL Data Sheet</p>
                         </li>
                         <li ng-if="productIdObj.quoteSheetLink" class="product-download-btns waves-effect waves-light">
                             <a class="btn-floating btn-large amber darken-3" href="/pdf/{{ productIdObj.quoteSheetLink }}" target="_blank">
@@ -49,12 +56,6 @@
                                 <i class="material-icons small">attach_file</i>
                             </a>
                             <p>Spec Sheet</p>
-                        </li>
-                        <li ng-if="productIdObj.id === 'omniwall_cl'" class="product-download-btns waves-effect waves-light">
-                            <a class="btn-floating btn-large amber darken-3" href="{{ productIdObj.specPageLink2 }}" target="_blank">
-                                <i class="material-icons small">attach_file</i>
-                            </a>
-                            <p>OmniWall CL Conditional Spec Sheet</p>
                         </li>
                         <li ng-if="productIdObj.colors && !productIdObj.id === 'lead_tees'" class="waves-effect waves-light">
                             <a class="product-download-btns btn-floating btn-large amber darken-3" href="/pdf/firestone_color_chart.pdf" target="_blank">
