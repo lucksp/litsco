@@ -9,7 +9,7 @@
     "angular-ui-router": "^0.4.2",
     "angular-ui-router-title": "^0.1.1",
     "body-parser": "^1.18.1",
-    "express": "^4.14.1",
+    "express": "^4.17.3",
     "forever": "^0.15.3",
     "gulp-ng-config": "^1.5.1",
     "install": "^0.10.1",
